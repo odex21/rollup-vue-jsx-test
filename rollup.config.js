@@ -1,5 +1,5 @@
 // import typescript from 'rollup-plugin-typescript2'
-import babel from 'rollup-plugin-babel'
+import babel from '@rollup/plugin-babel'
 import { DEFAULT_EXTENSIONS } from '@babel/core'
 
 const output = [
@@ -20,6 +20,7 @@ const plugins = [
   // }),
   babel({
     exclude: 'node_modules/**',
+    babelHelpers: 'bundled',
     extensions: [
       ...DEFAULT_EXTENSIONS,
       '.ts',
