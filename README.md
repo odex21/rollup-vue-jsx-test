@@ -6,5 +6,5 @@ yarn babel
 ```
 ### Use Rollup
 ```
-rollup -c
+yarn rollup 
 ```
