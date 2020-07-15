@@ -1,4 +1,4 @@
-import typescript from 'rollup-plugin-typescript2'
+// import typescript from 'rollup-plugin-typescript2'
 import babel from 'rollup-plugin-babel'
 import { DEFAULT_EXTENSIONS } from '@babel/core'
 
@@ -15,9 +15,9 @@ const external = [
 
 
 const plugins = [
-  typescript({
-    tsconfig: 'tsconfig.json',
-  }),
+  // typescript({
+  //   tsconfig: 'tsconfig.json',
+  // }),
   babel({
     exclude: 'node_modules/**',
     extensions: [
@@ -29,7 +29,8 @@ const plugins = [
 ]
 
 export default {
-  input: 'src/test.tsx',
+  input: 'src/test.jsx',
+  // input: 'src/test.tsx',
   output,
   plugins,
   // external

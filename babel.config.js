@@ -1,6 +1,6 @@
 module.exports = {
   "presets": [
-    "@babel/preset-typescript"
+    "@babel/env"
   ],
   "plugins": [
     "@hcysunyang/vue-next-jsx"
