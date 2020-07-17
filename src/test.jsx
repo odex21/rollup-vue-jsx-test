@@ -1,6 +1,7 @@
+import { Transition } from 'vue'
+
 export const App = () => (
-  <>
-    <span>I'm</span>
-    <span>Fragment</span>
-  </>
+  <Transition name="fade">
+    { <span>Fragment</span> }
+  </Transition>
 )

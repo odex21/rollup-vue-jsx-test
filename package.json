@@ -15,7 +15,7 @@
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.6",
     "@babel/preset-typescript": "^7.9.0",
-    "@hcysunyang/babel-plugin-vue-next-jsx": "^0.3.0",
+    "@hcysunyang/babel-plugin-vue-next-jsx": "^0.3.2",
     "@rollup/plugin-babel": "^5.1.0",
     "@rollup/plugin-commonjs": "^11.1.0",
     "@rollup/plugin-node-resolve": "^7.1.3",

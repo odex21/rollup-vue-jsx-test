@@ -834,10 +834,10 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@hcysunyang/babel-plugin-vue-next-jsx@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.npmjs.org/@hcysunyang/babel-plugin-vue-next-jsx/-/babel-plugin-vue-next-jsx-0.3.0.tgz#b68d3983b40971dfcef8381556e03244db88cf05"
-  integrity sha512-DIoRKhvy4up7Cmkk38LTpHKj8gIX2SRy9CuLl6/c3qj7j1GnsbN6dwH2nSN+M3c61OIOmKal/5Tyx0bhN6FMzw==
+"@hcysunyang/babel-plugin-vue-next-jsx@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.npmjs.org/@hcysunyang/babel-plugin-vue-next-jsx/-/babel-plugin-vue-next-jsx-0.3.2.tgz#e74eab5c8e04e796e1740ccd647331a0f7ef76b8"
+  integrity sha512-xTm3ZrL4QrGVy5+biUJzFYpjpbIxkdo/J6Q8c0BUfrgOx/5pN7oB9kijETODJgD3pvXNH4nKZA7bfDQY4RKCcg==
   dependencies:
     "@babel/plugin-syntax-jsx" "^7.10.4"
     "@babel/types" "^7.10.3"
